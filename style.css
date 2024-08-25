@@ -1,0 +1,62 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+
+
+.container{
+    width: 100vw;
+    height: 100vh;
+  
+
+
+ 
+}
+
+
+.centerElements{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.card {
+    background-color: rgb(255, 255, 255);
+    flex-direction: column;
+    padding: 20px;
+    max-width: 500px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.199);
+    box-shadow: 1px 1px 1px 0.12px rgba(0, 0, 0, 0.075) ;
+}
+
+
+#userName{
+    font-size: 20px;
+}
+
+#reg{
+    font-size: 12px;
+    text-align: center;
+    color: rgb(59, 187, 230);
+}
+
+.detailSection  p{
+    text-align: center;
+}
+
+.arrowButtondesign{
+    margin-top: 10px;
+    padding: 10px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.arrowButtondesign i {
+    font-size: 20px;
+
+}
